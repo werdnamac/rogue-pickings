@@ -59,7 +59,7 @@ header h1 {
 	/*float: left;*/
 	width: 100%;
 	margin: 0;
-	/*padding: 2.375em 0;*/
+	padding-top: 1em;
 }
 header h1 span {
 	color: #77a466;
@@ -192,7 +192,7 @@ footer span {
 			display: flex;
 		  justify-content: center;
 		  align-items:flex-start;
-			flex-flow: row wrap;
+			flex-flow: row nowrap;
 		}
 
 		.section-one,
@@ -202,18 +202,25 @@ footer span {
 			/*height: auto;*/
 			/*float: left;*/
 			border-top: .0625em solid #eee;
+
 		}
 
-	/*	.section-one h3 {
+	.section-one h3 {
 			padding: .625em 0;
 		}
 
 		.section-two {
 			border-left: .0625em solid #eee;
 			border-right: .0625em solid #eee;
+			padding-left: 2.375em;
+
 		}
 
-		.section-two h3,
+		.section-three {
+			padding-left: 2.375em;
+		}
+
+		/*.section-two h3,
 		.section-three h3 {
 			padding: .625em 2.375em;
 		}*/
